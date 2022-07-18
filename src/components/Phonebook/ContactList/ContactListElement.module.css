@@ -1,0 +1,46 @@
+.listElement {
+  list-style: none;
+  display: flex;
+  align-content: space-between;
+  border: 1px dotted;
+  padding: 5px;
+  background-color: rgba(170, 206, 133, 0.397);
+}
+.listElement + .listElement {
+  margin-top: 10px;
+}
+.listBtn {
+  display: block;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.listBtn:hover .listBtnIcon,
+.listBtn:focus .listBtnIcon {
+  fill: teal;
+  transform: scale(1.2);
+}
+.wraper {
+  margin-right: auto;
+}
+
+.listPerson,
+.listPhone {
+  padding: 0;
+  margin: 0;
+  max-width: 200px;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.listPersonIcon {
+  display: inline-block;
+  margin-right: 10px;
+  width: 20px;
+}
+
+.list {
+  padding: 0;
+}

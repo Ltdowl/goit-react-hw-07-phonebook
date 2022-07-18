@@ -1,0 +1,11 @@
+.container {
+    margin: 0 auto;
+    width: 320px;
+      background: linear-gradient( #bbb, transparent 1px), linear-gradient( 90deg, #bbb, transparent 1px);
+  background-size: 15px 15px;
+  background-position: center center;
+}
+.title {
+    text-transform: uppercase;
+    text-align: center;
+}
